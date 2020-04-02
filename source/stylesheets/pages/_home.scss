@@ -42,8 +42,7 @@
 .gifs {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 
     img {
       width: 45%;
@@ -56,24 +55,28 @@
 }
 
 .app-section {
-  display: flex;
+  justify-content: space-between;
   height: 600px;
   background: #F5F5F5;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 30px;
 
   .logo-paragraph {
+    width: 500px;
+    padding: 20px;
+
     img {
       height: 10%;
+      margin-bottom: 10px;
     }
   }
 
-  .clever-closet-screen {
-    display: flex;
+  .app-screens {
+    padding: 20px;
+    width: auto;
 
     img {
-    height: 100%;
-    margin: 10px;
+      height: 650px;
+      margin: 10px;
     }
 
     p {
@@ -81,9 +84,17 @@
     }
 
   }
+
 }
 
 .contact-section {
   height: 100px;
   text-align: center;
+
+  a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #DAD3FF;
+    padding-top: 20px;
+  }
 }
